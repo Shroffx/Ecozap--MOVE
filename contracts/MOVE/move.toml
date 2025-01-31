@@ -1,0 +1,16 @@
+[package]
+name = "emission"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress ="0x35c3734b88cd0e9d60bec5a7ac6f7b8686998d46f82ca0075adf8af3d3557aa5"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
